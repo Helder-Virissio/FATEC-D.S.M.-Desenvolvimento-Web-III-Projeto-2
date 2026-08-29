@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início</title>
+
+    <!-- Link CSS Global -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Site para Icones -->
+    <script
+      src="https://kit.fontawesome.com/c904066659.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Topo Social -->
+    <div class="socials">
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-square-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+      <div class="slogan">
+        <h4>"Formando profissionais éticos, responsáveis e inovadores"</h4>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <img
+        src="/img/fatec_ra_metropolitana_sp_diadema_cor.png"
+        style="width: 120px; height: auto; padding-top: 16px"
+        alt="Logo Fatec"
+      />
+      <nav>
+        <ul style="list-style-type: none">
+          <li><a href="/">Início</a></li>
+          <li
+            class="dropdown-container"
+            style="
+              display: flex;
+              align-items: center;
+              color: var(--color-title);
+              gap: 4px;
+              position: relative;
+              padding: 24px 0;
+              cursor: pointer;
+            "
+          >
+            <a href="#disciplinas">Disciplinas</a>
+            <i
+              style="transform: translateY(-2px)"
+              class="fa-solid fa-sort-down"
+            ></i>
+            <!-- Menu Dropdown -->
+            <ul class="dropdown-menu">
+              <li><a href="/algebra">Álgebra Linear</a></li>
+              <li><a href="/dbnr">Banco de Dados Não Rel.</a></li>
+              <li><a href="/dw3">Desenvolvimento Web 3</a></li>
+              <li><a href="/gestao-agil">Gestão Ágil</a></li>
+              <li><a href="/ingles">Inglês</a></li>
+              <li><a href="/ihc">Interação Humano-Computador</a></li>
+              <li><a href="/tp2">Técnicas de Prog. 2</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/grade" target="_blank">Grade PDF</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero DSM -->
+      <section class="hero-principal">
+        <div class="conteudo">
+          <span class="eyebrow">FATEC Diadema - Luigi Papaiz</span>
+          <h1>Desenvolvimento de Software Multiplataforma</h1>
+          <p>Construindo o futuro através da tecnologia, código e inovação.</p>
+          <a href="#disciplinas" class="btn-hero">Ver Disciplinas</a>
+        </div>
+      </section>
+
+      <!-- Seção: Sobre Curso e Vídeo -->
+      <section class="sobre-curso">
+        <div class="container">
+          <div class="conteudo-curso">
+            <div class="texto-curso">
+              <h2>Sobre o Curso</h2>
+              <p>
+                O curso superior de tecnologia em Desenvolvimento de Software
+                Multiplataforma forma profissionais capazes de projetar,
+                desenvolver e testar software para múltiplas plataformas, como
+                web, mobile e desktop.
+              </p>
+              <p>
+                No <strong>3º Semestre</strong>, o foco se volta para as
+                práticas de gestão ágil, integrando front-end moderno,
+                estruturação de banco de dados não relacional e conceitos
+                sólidos de interface e experiência do usuário.
+              </p>
+            </div>
+            <div class="multimidia">
+              <!-- Vídeo Institucional -->
+              <video controls>
+                <source src="/video/VideoDSM.mp4" type="video/mp4" />
+                Seu navegador não suporta a tag de vídeo.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção: Navegação Disciplinas -->
+      <section id="disciplinas" class="disciplinas-grid">
+        <div class="container">
+          <h2 class="section-title">Disciplinas do 3º Semestre</h2>
+
+          <div class="cards-container">
+            <!-- DW3 -->
+            <a href="/dw3" class="card">
+              <div
+                class="card-img"
+                style="
+                  background-image: url('/img/desenvolvimento-web.png');
+                "
+              ></div>
+              <div class="card-content">
+                <h3>Desenvolvimento Web 3</h3>
+                <p>
+                  <i class="fa-solid fa-chalkboard-user"></i> Prof. Vinicius
+                  Heltai
+                </p>
+              </div>
+            </a>
+
+            <!-- IHC -->
+            <a href="/ihc" class="card">
+              <div
+                class="card-img"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop');
+                "
+              ></div>
+              <div class="card-content">
+                <h3>Interação Humano-Computador</h3>
+                <p><i class="fa-solid fa-chalkboard-user"></i> Prof. Lucio</p>
+              </div>
+            </a>
+
+            <!-- Gestão Ágil -->
+            <a href="/gestao-agil" class="card">
+              <div
+                class="card-img"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2000&auto=format&fit=crop');
+                "
+              ></div>
+              <div class="card-content">
+                <h3>Gestão Ágil</h3>
+                <p><i class="fa-solid fa-chalkboard-user"></i> Prof. Bruno</p>
+              </div>
+            </a>
+
+            <!-- Banco de Dados Não Relacional -->
+            <a href="/bdnr" class="card">
+              <div
+                class="card-img"
+                style="background-image: url('/img/NoSQL.jpeg')"
+              ></div>
+              <div class="card-content">
+                <h3>Banco de Dados Não Rel.</h3>
+                <p>
+                  <i class="fa-solid fa-chalkboard-user"></i> Prof. Marcos
+                  Vasconcelos
+                </p>
+              </div>
+            </a>
+
+            <!-- Técnicas de Prog. 2 -->
+            <a href="/tp2" class="card">
+              <div
+                class="card-img"
+                style="
+                  background-image: url('/img/DesignPatterns.png');
+                "
+              ></div>
+              <div class="card-content">
+                <h3>Técnicas de Prog. 2</h3>
+                <p>
+                  <i class="fa-solid fa-chalkboard-user"></i> Prof. Diogo Soares
+                </p>
+              </div>
+            </a>
+
+            <!-- Álgebra Linear -->
+            <a href="/algebra" class="card">
+              <div
+                class="card-img"
+                style="background-image: url(/img/algebra_linear_m.jpg)"
+              ></div>
+              <div class="card-content">
+                <h3>Álgebra Linear</h3>
+                <p>
+                  <i class="fa-solid fa-chalkboard-user"></i> Prof. Rosângela
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
