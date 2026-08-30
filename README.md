@@ -11,7 +11,7 @@ O projeto centraliza as informações do semestre em um único site: cada discip
 ## ▶️ Como Executar
 
 ```bash
-git clone https://github.com/PedHenSilva/FATEC-D.S.M.-Desenvolvimento-Web-III-Projeto-2.git
+git clone [https://github.com/Helder-Virissio/FATEC-D.S.M.-Desenvolvimento-Web-III-Projeto-2.git]
 cd FATEC-D.S.M.-Desenvolvimento-Web-III-Projeto-2
 node app.js
 ```
